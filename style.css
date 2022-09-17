@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 35px;
+    color: chocolate;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow:hidden;
+    background-color:burlywood;}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    color:chocolate;
+    margin-top: 1em;
+}
+.centering {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#card {
+    width: 10em;
+    height: 10em;
+    display: inherit;
+    background-color:beige;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid chocolate;
+}
+.section {
+    margin: 1em 0;
+}
+.buttons {
+    color:beige;
+    background-color:chocolate;
+    border: none;
+    margin: 0 1em 0 1em ;
+    padding: 0.3em;
+    font-size: 25px;
+    border-radius: 15%;
+    outline-style:groove;
+    outline-color: beige;
+    transition: 0.2s ease-out;
+
+}
+.buttons:hover {
+    color: chocolate;
+    background-color:beige;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: 0.2s ease-in;
+}
